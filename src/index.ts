@@ -1,7 +1,7 @@
 import { compose, map, filter } from "./fp-lib";
 export { Nothing } from "./monad";
 
-const { Just } = Maybe;
+const { Just } = cz;
 
 const result = compose(
   map((x: number) => x * 2),
