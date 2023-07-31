@@ -1,8 +1,10 @@
 import { compose, map, filter } from "./fp-lib";
-export { Nothing } from "./monad";
+import {  Maybe }  from 'true-myth'
 
-const { Just } = Maybe;
-
+// const {  Maybe} = monad  export  * from 'true-myth's
+                                                                                                                              
+ const { just, nothing } = Maybe
+const a = just(6)
 const result = compose(
   map((x: number) => x * 2),
   filter((x) => x > 2)
