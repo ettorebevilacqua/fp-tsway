@@ -1208,31 +1208,6 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-sanctuary-maybe@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/sanctuary-maybe/-/sanctuary-maybe-2.1.0.tgz#3ae6e35b5c5c72cc75fe0626b67a74abc4e68d91"
-  integrity sha512-xCmvaEkYaIz5klWUrsgvgORKTL3bVYxATp7HyGBY0ZCu9tHJtSYDTpwnqMkRknHFIU986Kr2M/dJdiFvuc6UCQ==
-  dependencies:
-    sanctuary-show "2.0.0"
-    sanctuary-type-classes "12.1.0"
-
-sanctuary-show@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/sanctuary-show/-/sanctuary-show-2.0.0.tgz#2326b4744f4b0f993f18ca56a29f68a50f514637"
-  integrity sha512-REj4ZiioUXnDLj6EpJ9HcYDIEGaEexmB9Fg5o6InZR9f0x5PfnnC21QeU9SZ9E7G8zXSZPNjy8VRUK4safbesw==
-
-sanctuary-type-classes@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/sanctuary-type-classes/-/sanctuary-type-classes-12.1.0.tgz#2d1457f678cb621bcda64fe537f5d07da5556c3a"
-  integrity sha512-oWP071Q88dEgJwxHLZp8tc7DoS+mWmYhYOuhP85zznPpIxV1ZjJfyRvcR59YCazyFxyFeBif7bJx1giLhDZW0Q==
-  dependencies:
-    sanctuary-type-identifiers "3.0.0"
-
-sanctuary-type-identifiers@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sanctuary-type-identifiers/-/sanctuary-type-identifiers-3.0.0.tgz#51cb488d2ed9f194946a64ffe2b41dd49a348c0b"
-  integrity sha512-YFXYcG0Ura1dSPd/1xLYtE2XAWUEsBHhMTZvYBOvwT8MeFQwdUOCMm2DC+r94z6H93FVq0qxDac8/D7QpJj6Mg==
-
 semver-diff@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
