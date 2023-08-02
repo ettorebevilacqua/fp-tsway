@@ -1,5 +1,5 @@
 import { compose, map, filter } from "./fp-lib";
-import {  Maybe }  from 'true-myth'
+import {  Maybe }  from './monad'
 
 // const {  Maybe} = monad  export  * from 'true-myth's
                                                                                                                               
