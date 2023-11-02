@@ -7,7 +7,11 @@
     "start": "nodemon --exec 'ts-node' src/index.ts localhost 8080",
     "try": "nodemon --exec 'ts-node' src/try.ts localhost 8080",
     "csv": "nodemon --exec 'ts-node' src/csv.ts",
-    "fp": "nodemon --exec 'ts-node' src/fp-ts.ts"
+    "fp": "nodemon --exec 'ts-node' src/fp-ts.ts",
+    "fp1": "nodemon --exec 'ts-node' src/fp-ts/index.ts",
+    "fpeq": "nodemon --exec 'ts-node' src/fp-ts/eq.ts",
+    "js1":"nodemon  src/fp-js/ex1.js",
+    "doc":"nodemon  ./src/doc/fp/intro/intro.js"
   },
   "dependencies": {
     "@types/node": "14.14.29",
